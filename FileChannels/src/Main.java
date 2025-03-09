@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String dirName = System.getProperty("user.home")+"/TPO1dir";
+        String resultFileName = "TPO1res.txt";
+        Futil.processDir(dirName,resultFileName);
     }
 }
